@@ -1,0 +1,7 @@
+Java.perform(function() {
+        var context = Java.use('android.app.ActivityThread').currentApplication().getApplicationContext();
+        Java.scheduleOnMainThread(function() {
+            var toast = Java.use("android.widget.Toast");
+            toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("🇮🇳 ࿗ T̴͢͢e̴͢͢c̴͢͢h̴͢͢n̴͢͢o̴͢͢ ☣ I̴͢͢n̴͢͢d̴͢͢i̴͢͢a̴͢͢ ࿗ 🇮🇳"), 1).show();
+        });
+    });
