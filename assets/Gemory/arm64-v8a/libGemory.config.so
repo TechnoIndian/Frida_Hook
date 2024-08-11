@@ -1,0 +1,7 @@
+{
+    "interaction": {
+        "type": "script",
+        "path": "script.so",
+        "on_load": "resume"
+    }
+}
